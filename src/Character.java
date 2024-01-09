@@ -18,10 +18,10 @@ public class Character extends JPanel implements KeyListener{
 		
 		this.setBounds(0, 150, 80, 85); // 2 nr e pare: pozicioni i karakterit 2 nr e dyte madhesia e hitbox-it
 		
-		run = new ImageIcon("battlebot_run-ezgif.com-speed.gif");
-		runrev = new ImageIcon("battlebot_run-ezgif.com-speed (1).gif");
-		idle = new ImageIcon("battlebot_idle-3-ezgif.com-speed.gif");
-		idlerev = new ImageIcon("battlebot_idle-3-ezgif.com-reverse.gif");
+		run = new ImageIcon("Asete/battlebot_run-ezgif.com-speed.gif");
+		runrev = new ImageIcon("Asete/battlebot_run-ezgif.com-speed (1).gif");
+		idle = new ImageIcon("Asete/battlebot_idle-3-ezgif.com-speed.gif");
+		idlerev = new ImageIcon("Asete/battlebot_idle-3-ezgif.com-reverse.gif");
 		
 		label = new JLabel();
 		

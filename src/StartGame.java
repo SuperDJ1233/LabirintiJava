@@ -10,5 +10,8 @@ public class StartGame {
         frameKryesor.setResizable(false);
         frameKryesor.setSize(500, 500);
         frameKryesor.setVisible(true); //e ben te dukshme dritren
+        //Icona e framit
+        ImageIcon logojaFrameit = new ImageIcon("Asete/logo.png");
+        frameKryesor.setIconImage(logojaFrameit.getImage());
     }
 }
